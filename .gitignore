@@ -1,0 +1,8 @@
+backend/venv/
+frontend/node_modules/
+backend/vector_store/
+__pycache__/
+*.pyc
+*.dll
+*.pyd
+.env
