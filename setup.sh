@@ -87,11 +87,11 @@ if ! command -v ollama &> /dev/null; then
     echo "  On Linux:   curl -fsSL https://ollama.com/install.sh | sh"
     echo "  On Windows: download the installer from https://ollama.com/download"
     echo ""
-    warn "After installing Ollama, run: ollama pull gemma3:4b"
+    warn "After installing Ollama, run: ollama pull gemma4"
 else
-    info "Ollama is installed — pulling gemma3:4b model (this may take several minutes)..."
-    ollama pull gemma3:4b
-    info "Model gemma3:4b downloaded and ready."
+    info "Ollama is installed — pulling gemma4 model (this may take several minutes)..."
+    ollama pull gemma4
+    info "Model gemma4 downloaded and ready."
 fi
 
 # ---------------------------------------------------------------------------
@@ -112,3 +112,5 @@ echo "║    cd backend && source venv/bin/activate             ║"
 echo "║    python ingest_pdfs.py                              ║"
 echo "╚═══════════════════════════════════════════════════════╝"
 echo ""
+
+

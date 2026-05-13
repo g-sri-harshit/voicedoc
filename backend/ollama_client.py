@@ -3,7 +3,7 @@ import json
 import os
 
 OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://localhost:11434")
-DEFAULT_MODEL = os.getenv("OLLAMA_MODEL", "gemma3:4b")
+DEFAULT_MODEL = os.getenv("OLLAMA_MODEL", "gemma4")
 
 
 def query_ollama(prompt: str, model: str = DEFAULT_MODEL) -> str:
@@ -12,7 +12,7 @@ def query_ollama(prompt: str, model: str = DEFAULT_MODEL) -> str:
 
     Args:
         prompt: The full prompt string to send to the model.
-        model: The Ollama model name to use (default: gemma3:4b).
+        model: The Ollama model name to use (default: gemma4).
 
     Returns:
         The model's response as a plain string.
@@ -69,3 +69,5 @@ def check_ollama_health() -> bool:
         return response.status_code == 200
     except Exception:
         return False
+
+

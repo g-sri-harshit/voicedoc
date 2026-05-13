@@ -79,3 +79,5 @@ class WhisperEngine:
         finally:
             if tmp_path and os.path.exists(tmp_path):
                 os.remove(tmp_path)
+
+

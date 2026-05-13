@@ -14,3 +14,5 @@ export default function TranscriptDisplay({ transcript }) {
     </div>
   );
 }
+
+

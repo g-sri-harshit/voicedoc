@@ -77,3 +77,5 @@ def compute_trust_score(answer: str, context_chunks: list) -> dict:
         "color": color,
         "flags": flags,
     }
+
+

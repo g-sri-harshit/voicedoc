@@ -73,3 +73,5 @@ export default function DiagnosticCard({ answer, contextUsed }) {
     </div>
   );
 }
+
+

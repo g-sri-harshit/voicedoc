@@ -39,3 +39,5 @@ automatically by the VoiceDoc backend when answering queries.
 - Re-running the script will add new documents without removing existing ones.
 - Larger PDFs take longer to process but improve diagnostic accuracy.
 - All processing is done 100% locally — no data is sent to any external server.
+
+
